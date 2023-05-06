@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platillos</title>
+</head>
+<body>
+    <header>
+        <h1>Los platillos mas deliciosos</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="./index.html">Principal</a>
+            </li>
+            <li>
+                <a href="./platillos.html">Platillos</a>
+            </li>
+            <li>
+                <a href="./ubicacion.html">Ubicacion</a>
+            </li>
+            
+        </ul>
+    </nav>
+    <section>
+        <div>
+            <!-- <strong> Esta etiqueta muestra en negrito un mensaje importante -->
+            <p><strong>Conoce nuestros mejores platillos</strong>
+            </p>
+            <!-- <iframe>: adjuntar videos, imagenes, documentos, codigo, mapa de google -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HS24PywYlxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+        </div>
+        <div>
+            <br>
+            <!-- 
+                border: muestra el bode de la tabla
+                cellpadding: es el espacio del contenido con la celda 
+                cellspacing: es la forma como queremos que se vea el borde (demasiado plano o demasiado grueso)
+            -->
+            <table border="1" cellpadding="5" cellspacing="0">
+                <!--
+                    colspan: propiedad que nos sirve para combinar celdas <td colspan= "2">
+                    rowspan: propiedad que no s sirve para combinar filas <tr rowspan= "3">
+                -->
+                <!-- encabezado -->
+                <thead>
+                    <!-- <th>: titulos -->
+                    <th>Platillo</th>
+                    <th>Descripcion</th>
+                    <th>Precio</th>
+                </thead>
+                <!-- cuerpo -->
+                <tbody>
+                    <!-- <tr>: asignacion de filas -->
+                    <tr>
+                        <!-- <td> asignacion de columnas -->
+                        <td>Pollo en Crema</td>
+                        <td>Es una pechuga a la plancha bañada en crema de hongos</td>
+                        <td>$2.50</td>
+                    </tr>
+                    <tr>
+                        <td>Carne Asada</td>
+                        <td>Es un combo que lleva chimol, ensalada de papas, aderezos</td>
+                        <td>$3.75</td>
+                    </tr>
+                    <tr>
+                        <td>Lasagna</td>
+                        <td>Es una lasagna que podria ser de carne o de pollo o mixto</td>
+                        <td>$3.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Seccion de bebidas</h3>
+            <table border="1" cellpadding="5" cellspacing="0">
+                <thead>
+                    <th>Bebida</th>
+                    <th>Marca</th>
+                    <th>Bebida</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jugo de Naranja</td>
+                        <td>Natural</td>
+                        <td>$1.25</td>
+                    </tr>
+                    <tr>
+                        <td>Licuado de Guineo</td>
+                        <td>Natural</td>
+                        <td rowspan="3">$0.75</td>
+                    </tr>
+                    <tr>
+                        <td>Soda</td>
+                        <td>cocacola</td>
+                    </tr>
+                    <tr>
+                        <td>Limonada</td>
+                        <td>Natural</td>
+                    </tr>
+                </tbody>
+                <!-- pie de pagina <tfoot> -->
+                    <tfoot>
+                        <tr>
+                            <td colspan="3"> El Sazon</td>
+                        </tr>
+                    </tfoot>
+            </table>
+        </div>
+    </section>
+</body>
+</html>

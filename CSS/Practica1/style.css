@@ -1,0 +1,16 @@
+/* llmando al selector id*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@1,1;1,300&display=swap');
+
+#contenedor{
+    font-family: 'Ysabeau', sans-serif; /* tipo de fuente */ 
+    /* para cambiar el tamaño de la fuente tenemos
+       px o rem
+       1rem = 16px
+       1.5rem = 24px
+    */
+    font-size: 1.5rem; 
+    border: 2px dotted black;
+    text-align: center;
+    padding: 15px; /* espacio entre el contenido y su margen */
+}
